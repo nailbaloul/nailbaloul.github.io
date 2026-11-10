@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Young Researchers Seminar on Control and Artificial Intelligence — Paris, November 20, 2026.">
+  <title>Young Researchers Seminar | Control & AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">CONTROL <span>&</span> AI</a>
+    <nav>
+      <a href="#program" data-en="Program" data-fr="Programme">Program</a>
+      <a href="#practical" data-en="Practical information" data-fr="Informations pratiques">Practical information</a>
+      <a href="#upcoming" data-en="Upcoming events" data-fr="À venir">Upcoming events</a>
+    </nav>
+    <button class="language" id="languageToggle" aria-label="Switch language">FR</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow" data-en="Young Researchers Seminar" data-fr="Séminaire jeunes chercheurs">Young Researchers Seminar</p>
+        <h1 data-en="Control <em>&</em><br>Artificial Intelligence" data-fr="Commande <em>&</em><br>Intelligence artificielle">Control <em>&</em><br>Artificial Intelligence</h1>
+        <p class="hero-description"
+           data-en="A seminar bringing together researchers and young scientists around recent advances at the intersection of control, robotics and artificial intelligence."
+           data-fr="Un séminaire réunissant chercheurs et jeunes scientifiques autour des avancées récentes à l’interface de la commande, de la robotique et de l’intelligence artificielle.">
+          A seminar bringing together researchers and young scientists around recent advances at the intersection of control, robotics and artificial intelligence.
+        </p>
+        <div class="hero-meta">
+          <span>20 November 2026</span>
+          <span>15:30 – 18:00</span>
+          <span>Paris, France</span>
+        </div>
+        <a class="primary-link" href="#program" data-en="Discover the program ↓" data-fr="Découvrir le programme ↓">Discover the program ↓</a>
+      </div>
+      <div class="hero-mark" aria-hidden="true">C<span>·</span>AI</div>
+    </section>
+
+    <section class="section intro" id="program">
+      <div class="section-heading">
+        <p class="eyebrow" data-en="01 / The seminar" data-fr="01 / Le séminaire">01 / The seminar</p>
+        <h2 data-en="Program" data-fr="Programme">Program</h2>
+      </div>
+
+      <div class="program-content">
+        <div class="schedule">
+          <div class="schedule-row">
+            <time>15:30</time>
+            <div>
+              <h3 data-en="Welcome and opening" data-fr="Accueil et ouverture">Welcome and opening</h3>
+            </div>
+          </div>
+
+          <div class="schedule-row talk">
+            <time>15:40</time>
+            <div>
+              <p class="tag" data-en="Talk 01" data-fr="Exposé 01">Talk 01</p>
+
+    <h3>
+      <a class="speaker-link"
+         href="https://saood.fr"
+         target="_blank"
+         rel="noopener noreferrer">
+        Adnan Saood
+      </a>
+    </h3>
+              <p class="speaker-role"
+                 data-en="Robotics Engineer and PhD candidate, ENSTA — U2IS"
+                 data-fr="Ingénieur robotique et doctorant, ENSTA — U2IS">
+                Robotics Engineer and PhD student, ENSTA — U2IS
+              </p>
+              <p class="talk-title" data-en="Title to be announced" data-fr="Titre à confirmer">Title to be announced</p>
+            </div>
+          </div>
+
+          <div class="schedule-row break">
+            <time>16:30</time>
+            <div>
+              <h3 data-en="Coffee break" data-fr="Pause café">Coffee break</h3>
+              <p data-en="An opportunity for informal discussions." data-fr="Un moment d’échange informel.">An opportunity for informal discussions.</p>
+            </div>
+          </div>
+
+          <div class="schedule-row talk">
+            <time>17:00</time>
+            <div>
+              <p class="tag" data-en="Talk 02" data-fr="Exposé 02">Talk 02</p>
+
+    <h3>
+      <a class="speaker-link"
+         href="https://sites.google.com/site/sitepmbernard/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Pauline Bernard
+      </a>
+    </h3>
+	      <p class="speaker-role"
+                 data-en="Associate Professor, Mines Paris – PSL, CAS"
+                 data-fr="Maîtresse de conférences, Mines Paris – PSL, CAS">
+                Associate Professor, Mines Paris – PSL, CAS
+              </p>
+              <p class="talk-title">Provable state estimation: from KKL to recurrent models</p>
+              <p class="abstract-note"
+                 data-en="The talk abstract will be available here shortly."
+                 data-fr="Le résumé détaillé de l’exposé sera bientôt disponible ici.">
+                Estimating the state of a dynamical system from observations is a crucial task in robotics and control. Despite their empirical success, recurrent models often lack formal guarantees on convergence and robustness. We bridge this gap by analyzing these architectures from the perspective of nonlinear observer theory, and in particular KKL observers. By framing RNNs as a time-discretization of continuous latent dynamical systems (Neural ODEs), we demonstrate that enforcing a contraction condition on the latent flow guarantees the existence of a smooth, injective map of the true physical state into the latent space. We show that this architecture corresponds to KKL observers with nonlinear latent dynamics and acts as a tunable observer: by increasing a single scalar gain that scales the latent vector field, the estimation error can be driven to an arbitrarily small neighborhood of zero at an exponentially fast rate. We further establish quantitative bounds on the MLP complexity required to decode this latent state, and extend our formal guarantees to the discrete-time residual RNN implementation. We show that on a real mobile robotic task, a provably contracting GRU model outperforms a vanilla GRU with substantially more stable training. We also report that unconstrained GRUs converge to contracting dynamics on this task, suggesting that contraction is an emergent property of well-trained sequence models.
+              </p>
+            </div>
+          </div>
+
+          <div class="schedule-row">
+            <time>18:00</time>
+            <div>
+              <h3 data-en="End of the seminar" data-fr="Fin du séminaire">End of the seminar</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section practical" id="practical">
+      <div class="section-heading">
+        <p class="eyebrow" data-en="02 / Join us" data-fr="02 / Nous rejoindre">02 / Join us</p>
+        <h2 data-en="Practical information" data-fr="Informations pratiques">Practical information</h2>
+      </div>
+
+      <div class="info-grid">
+        <article class="info-card">
+          <p class="card-label" data-en="Date & time" data-fr="Date et horaire">Date & time</p>
+          <h3>Friday, 20 November 2026</h3>
+          <p>15:30 – 18:00</p>
+        </article>
+
+        <article class="info-card">
+          <p class="card-label" data-en="Main venue" data-fr="Lieu prévu">Main venue</p>
+          <h3>Laboratoire Jacques-Louis Lions (LJLL)</h3>
+          <p>4 place Jussieu, 75005 Paris, France</p>
+          <p data-en="Barre 15–16, 3rd floor, Room 309"
+             data-fr="Barre 15–16, 3e étage, salle 309">
+            Barre 15–16, 3rd floor, Room 309
+          </p>
+        </article>
+
+        <article class="info-card alternative">
+          <p class="card-label" data-en="Alternative venue if needed" data-fr="Salle de repli éventuelle">Alternative venue if needed</p>
+          <h3>Inria Paris — Anita Borg room</h3>
+          <p>48 rue Barrault, 75013 Paris, France</p>
+          <p class="small"
+             data-en="The final venue will be confirmed before the seminar. Please check this page for updates."
+             data-fr="Le lieu définitif sera confirmé avant le séminaire. Consultez cette page pour les mises à jour.">
+            The final venue will be confirmed before the seminar. Please check this page for updates.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section upcoming" id="upcoming">
+      <div class="section-heading">
+        <p class="eyebrow" data-en="03 / Save the date" data-fr="03 / À noter">03 / Save the date</p>
+        <h2>Upcoming Events</h2>
+        <p class="section-lead"
+           data-en="More opportunities to meet and exchange ideas."
+           data-fr="D’autres occasions de se rencontrer et d’échanger.">
+          More opportunities to meet and exchange ideas.
+        </p>
+      </div>
+
+      <div class="upcoming-list">
+        <article class="upcoming-item">
+          <div class="upcoming-date"><span>11</span><small>FEB<br>2027</small></div>
+          <div>
+            <p class="tag" data-en="Next seminar" data-fr="Prochain séminaire">Next seminar</p>
+            <h3 data-en="Young Researchers Seminar" data-fr="Séminaire jeunes chercheurs">Young Researchers Seminar</h3>
+            <p>ENSTA · France</p>
+          </div>
+        </article>
+
+        <article class="upcoming-item">
+          <div class="upcoming-date"><span>JUN</span><small>2027</small></div>
+          <div>
+            <p class="tag" data-en="Workshop" data-fr="Workshop">Workshop</p>
+            <h3 data-en="Workshop on Control and Artificial Intelligence" data-fr="Workshop sur la commande et l’intelligence artificielle">Workshop on Control and Artificial Intelligence</h3>
+            <p>École nationale des ponts et chaussées · France</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="organizers">
+      <p class="eyebrow" data-en="Organized by" data-fr="Organisation">Organized by</p>
+      <p class="organizer-names">Nail Baloul <span>&</span> Martin Chassard</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>Control & AI · Young Researchers Seminar</span>
+    <a href="#home" data-en="Back to top ↑" data-fr="Retour en haut ↑">Back to top ↑</a>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('languageToggle');
+    let currentLanguage = 'en';
+
+    function setLanguage(language) {
+      currentLanguage = language;
+      document.documentElement.lang = language;
+      document.querySelectorAll('[data-en][data-fr]').forEach(element => {
+        element.innerHTML = element.dataset[language];
+      });
+      toggle.textContent = language === 'en' ? 'FR' : 'EN';
+    }
+
+    toggle.addEventListener('click', () => {
+      setLanguage(currentLanguage === 'en' ? 'fr' : 'en');
+    });
+  </script>
+</body>
+</html>
